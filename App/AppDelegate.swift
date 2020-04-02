@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-        _ = Common().application(application, didFinishLaunchingWithOptions: launchOptions)        
         
+        _ = Common().application(application, didFinishLaunchingWithOptions: launchOptions)
+                
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
         let nav = UINavigationController(rootViewController: vc!)
         window?.rootViewController = nav

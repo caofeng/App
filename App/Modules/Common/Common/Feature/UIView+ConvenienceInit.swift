@@ -129,6 +129,20 @@ extension UITextField {
     }
 }
 
+extension UIColor {
+    public class func setColor(_ color:UIColor,_ dark:UIColor? = nil)->UIColor {
+        if #available(iOS 13.0, *) {
+             return UIColor { (trait) -> UIColor in
+                if trait.userInterfaceStyle == .dark && dark != nil {
+                    return dark!
+                } else {
+                    return color
+                }
+            }
+        }
+        return color
+    }
+}
 
 
 

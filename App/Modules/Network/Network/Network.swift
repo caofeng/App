@@ -6,6 +6,17 @@
 //  Copyright © 2020 深圳拓邦股份有限公司. All rights reserved.
 //
 
-class Network {
+import Foundation
+import Alamofire
 
+open class Network :NSObject {
+
+    public class func request(){
+    
+        
+        
+    }
+    
+    
+    
 }

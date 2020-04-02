@@ -19,6 +19,9 @@ open class LoginModule :NSObject, UIApplicationDelegate {
     }
     
     
+    
+    
+    
     /// 如果此模块需要在 appDelegate 里做设置，可实现UIApplicationDelegate代理方法
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         

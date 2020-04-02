@@ -15,20 +15,22 @@ import Alamofire
 import HandyJSON
 import MBProgressHUD
 
+/// 基础工具模块，需要优先编译
 open class Common :NSObject,UIApplicationDelegate {
+        
+    public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        print("======如果模块需要，App启动时做些设置=======")
+        
+        return true
+    }
+    
     
     open class func bundle()->Bundle {
         guard let url = Bundle.main.url(forResource: "CommonBundle", withExtension: "bundle") else {
             return Bundle.main
         }
         return Bundle(url: url) ?? Bundle.main
-    }
-    
-    public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        
-        print("======Common Setting=======")
-        
-        return true
     }
     
 }

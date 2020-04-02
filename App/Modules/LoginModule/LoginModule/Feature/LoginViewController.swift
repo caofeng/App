@@ -8,6 +8,7 @@
 
 import UIKit
 import Common
+import Alamofire
 
 class LoginViewController: TBBaseViewController {
     
@@ -45,14 +46,12 @@ class LoginViewController: TBBaseViewController {
         
         showHudWithText("网络异常")
         
-    }
-
-
-    
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-
+        
+        
         
     }
+
+
+    
     
 }
