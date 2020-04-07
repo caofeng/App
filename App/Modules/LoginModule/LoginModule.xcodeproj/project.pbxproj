@@ -10,6 +10,7 @@
 		3440A62F2432D2FB00203AC3 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A62E2432D2FB00203AC3 /* LoginModule.swift */; };
 		3440A6512432D41C00203AC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A6502432D41C00203AC3 /* LoginViewController.swift */; };
 		348B9EE02433289000788A0D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B9EDF2433289000788A0D /* LoginViewModel.swift */; };
+		34FED865243734C300BC4363 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FED864243734C300BC4363 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		3440A6432432D37800203AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3440A6502432D41C00203AC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		348B9EDF2433289000788A0D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		34FED864243734C300BC4363 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				3440A6502432D41C00203AC3 /* LoginViewController.swift */,
 				348B9EDF2433289000788A0D /* LoginViewModel.swift */,
+				34FED864243734C300BC4363 /* RegisterViewController.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				3440A6512432D41C00203AC3 /* LoginViewController.swift in Sources */,
 				3440A62F2432D2FB00203AC3 /* LoginModule.swift in Sources */,
 				348B9EE02433289000788A0D /* LoginViewModel.swift in Sources */,
+				34FED865243734C300BC4363 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

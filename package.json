@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "接入React Native",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.7",
+    "add": "^2.0.6",
+    "react": "16.11.0",
+    "react-native": "0.62.0",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.7.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^9.0.2",
+    "react-navigation": "^4.3.7",
+    "yarn": "^1.22.4"
+  },
+  "author": "曹峰",
+  "license": "ISC"
+}

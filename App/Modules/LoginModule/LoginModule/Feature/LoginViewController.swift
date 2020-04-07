@@ -43,11 +43,9 @@ class LoginViewController: TBBaseViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        
-        showHudWithText("网络异常")
-        
-        
-        
+                
+        let vc = RegisterViewController()
+        navigationController?.pushViewController(vc, animated: true)
         
     }
 
