@@ -14,18 +14,16 @@ import FDFullscreenPopGesture
 import Alamofire
 import HandyJSON
 import MBProgressHUD
+import React
 
 /// 基础工具模块，需要优先编译
 open class Common :NSObject,UIApplicationDelegate {
         
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        
-        print("======如果模块需要，App启动时做些设置=======")
+        TBLog("======如果模块需要，App启动时做些设置=======")
         
         return true
     }
-    
-    
     open class func bundle()->Bundle {
         guard let url = Bundle.main.url(forResource: "CommonBundle", withExtension: "bundle") else {
             return Bundle.main

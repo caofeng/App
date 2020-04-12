@@ -83,9 +83,9 @@
 			children = (
 				3440A6702432D65600203AC3 /* Common */,
 				3440A6832432D68800203AC3 /* CommonBundle */,
-				3440A66F2432D65600203AC3 /* Products */,
-				11C0A31AED5E8E84376E1853 /* Pods */,
 				947415F52C046324450D5A02 /* Frameworks */,
+				11C0A31AED5E8E84376E1853 /* Pods */,
+				3440A66F2432D65600203AC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		29A9F45B4380B5E4EB87095A /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC0A7F6E063BFF939D3B9B8 /* Pods_App.framework */; };
 		3440A5EB2432D03E00203AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A5EA2432D03E00203AC3 /* AppDelegate.swift */; };
-		3440A5ED2432D03E00203AC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A5EC2432D03E00203AC3 /* SceneDelegate.swift */; };
 		3440A5EF2432D03E00203AC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A5EE2432D03E00203AC3 /* ViewController.swift */; };
 		3440A5F22432D03E00203AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440A5F02432D03E00203AC3 /* Main.storyboard */; };
 		3440A5F42432D04400203AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3440A5F32432D04400203AC3 /* Assets.xcassets */; };
@@ -20,6 +19,8 @@
 		3440A64F2432D3BE00203AC3 /* LoginBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3440A64D2432D3A200203AC3 /* LoginBundle.bundle */; };
 		3440A68F2432D6AD00203AC3 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440A67D2432D65700203AC3 /* libCommon.a */; };
 		3440A6902432D6B600203AC3 /* CommonBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3440A68E2432D6A100203AC3 /* CommonBundle.bundle */; };
+		3484565B2442CFAE00754669 /* TBModuesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 348456592442CFAE00754669 /* TBModuesManager.m */; };
+		3484565C2442CFAE00754669 /* AppDelegate+ModulesDistribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484565A2442CFAE00754669 /* AppDelegate+ModulesDistribute.m */; };
 		348B9E9E2432E84700788A0D /* libNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 348B9E9B2432E81000788A0D /* libNetwork.a */; };
 /* End PBXBuildFile section */
 
@@ -114,7 +115,6 @@
 		2C497BD1C5E58460F434F0CC /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		3440A5E72432D03E00203AC3 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3440A5EA2432D03E00203AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3440A5EC2432D03E00203AC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3440A5EE2432D03E00203AC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3440A5F12432D03E00203AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3440A5F32432D04400203AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +128,10 @@
 		3440A60E2432D04400203AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3440A6352432D2FB00203AC3 /* LoginModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginModule.xcodeproj; path = App/Modules/LoginModule/LoginModule.xcodeproj; sourceTree = "<group>"; };
 		3440A6782432D65600203AC3 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = App/Modules/Common/Common.xcodeproj; sourceTree = "<group>"; };
+		348456572442CFAE00754669 /* TBModuesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBModuesManager.h; sourceTree = "<group>"; };
+		348456582442CFAE00754669 /* AppDelegate+ModulesDistribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ModulesDistribute.h"; sourceTree = "<group>"; };
+		348456592442CFAE00754669 /* TBModuesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBModuesManager.m; sourceTree = "<group>"; };
+		3484565A2442CFAE00754669 /* AppDelegate+ModulesDistribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ModulesDistribute.m"; sourceTree = "<group>"; };
 		348B9E962432E80F00788A0D /* Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Network.xcodeproj; path = App/Modules/Network/Network.xcodeproj; sourceTree = "<group>"; };
 		B1772A7098A68B82AB849194 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		BCC0A7F6E063BFF939D3B9B8 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				3440A5EA2432D03E00203AC3 /* AppDelegate.swift */,
-				3440A5EC2432D03E00203AC3 /* SceneDelegate.swift */,
+				348456562442CFAE00754669 /* ModulesDistribute */,
 				3440A5EE2432D03E00203AC3 /* ViewController.swift */,
 				3440A5F02432D03E00203AC3 /* Main.storyboard */,
 				3440A5F32432D04400203AC3 /* Assets.xcassets */,
@@ -235,6 +239,17 @@
 				3440A68E2432D6A100203AC3 /* CommonBundle.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		348456562442CFAE00754669 /* ModulesDistribute */ = {
+			isa = PBXGroup;
+			children = (
+				348456582442CFAE00754669 /* AppDelegate+ModulesDistribute.h */,
+				3484565A2442CFAE00754669 /* AppDelegate+ModulesDistribute.m */,
+				348456572442CFAE00754669 /* TBModuesManager.h */,
+				348456592442CFAE00754669 /* TBModuesManager.m */,
+			);
+			path = ModulesDistribute;
 			sourceTree = "<group>";
 		};
 		348B9E972432E80F00788A0D /* Products */ = {
@@ -497,8 +512,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3440A5EF2432D03E00203AC3 /* ViewController.swift in Sources */,
+				3484565C2442CFAE00754669 /* AppDelegate+ModulesDistribute.m in Sources */,
 				3440A5EB2432D03E00203AC3 /* AppDelegate.swift in Sources */,
-				3440A5ED2432D03E00203AC3 /* SceneDelegate.swift in Sources */,
+				3484565B2442CFAE00754669 /* TBModuesManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
